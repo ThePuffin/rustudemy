@@ -26,7 +26,16 @@ fn main() {
 
 
     //multiple comparaison possible
-    println!("{}", 2>3 && 3>2);
+    println!("{}", 2>3 && 3>2); //reponse false
+    println!("{}", 4>3 && 3>2); //reponse true
+
+    println!("{}", 2>3 || 3>2); //reponse true
+    println!("{}", 2>3 || 3<2); //reponse false
+    println!("{}", 4>3 || 3>2); //reponse true
+
+    //not
+    println!("{}", !(3>2) ) //reponse false
+    println!("{}", !(3<2) ) //reponse true
 
 
 }
