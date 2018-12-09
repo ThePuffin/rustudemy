@@ -63,6 +63,7 @@ if ca=="y" {
     } else {
         println!("Your account is created");
         println!("Do you want to upload photo ?");
+        //on utiliser clear pour éviter d'avoir yy comme resultat
         ca.clear();
         io::stdin().read_line(&mut ca).expect("Failed");
         ca=ca.trim().to_string();
