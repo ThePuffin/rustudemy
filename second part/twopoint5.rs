@@ -22,7 +22,9 @@ let _first_num:i32=first_num.trim().parse().expect("Failed");
 let mut operator=String::new();
 println!("operator");
 io::stdin().read_line(&mut operator).expect("Failed");
-let _operator:String=operator.trim().parse().expect("Failed");
+// let _operator:String=operator.trim().parse().expect("Failed");
+//meilleur methode :
+operator=operator.trim().to_string();
 
 let mut second_num=String::new();
 println!("2nd number");
@@ -30,16 +32,16 @@ io::stdin().read_line(&mut second_num).expect("Failed");
 let _second_num:i32=second_num.trim().parse().expect("Failed");
 
 
-if _operator=="+"{
+if operator=="+"{
     let result=_first_num+_second_num;
     println!("{} is the result", result);
-}else if _operator=="-"{
+}else if operator=="-"{
     let result=_first_num-_second_num;
     println!("{} is the result", result);
-}else if _operator=="*"{
+}else if operator=="*"{
     let result=_first_num*_second_num;
     println!("{} is the result", result);
-}else if _operator=="/"{
+}else if operator=="/"{
     let result=_first_num/_second_num;
     println!("{} is the result", result);
 } else {
@@ -53,13 +55,13 @@ io::stdin().read_line(&mut grade).expect("Failed");
 let _grade:i32=grade.trim().parse().expect("Failed");
 if _grade > 100{
     println!("error" )
-}else if _grade>90 {
+}else if _grade>=90 {
     println!("grade A");
-}else if _grade>80{
+}else if _grade>=80{
     println!("grade B");
-}else if _grade>70{
+}else if _grade>=70{
     println!("grade C");
-}else if _grade>60{
+}else if _grade>=60{
     println!("grade D");
 }
 else{
