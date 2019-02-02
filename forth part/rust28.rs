@@ -6,7 +6,12 @@ fn main () {
     // //ou
     // println!("{}",otherfunction(4,3));
     
-println!("{:?}", sub_add(4, 2));
+// println!("{:?}", sub_add(4, 2));
+addd();
+fn addd(){
+    println!("coucou" );
+    println!("{:?}", sub_add(4, 1));
+}
 
 
 }
