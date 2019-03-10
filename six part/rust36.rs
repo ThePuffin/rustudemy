@@ -22,3 +22,4 @@ let s1=s.clone();
  println!("{}", s );
  println!("{}", s1);
 }
+
