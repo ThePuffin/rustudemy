@@ -20,4 +20,6 @@ cargo check
 
 to make our program run:
 cargo run
+
+(cargo run also build our program so we don't need to do that)
  */
