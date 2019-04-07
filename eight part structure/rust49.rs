@@ -21,5 +21,12 @@ fn main() {
         // hobby:u1.hobby,
         hobby: u1.hobby.clone()
     };
-    println!("u1={:?} \nu2={:?}", u1, u2);
+
+     let u3= User {
+        name:String::from("Mob"),
+       ..u1
+       //fonctionne si on enleve hobby dans l'objet et u1 et u2
+    };
+
+    println!("u1={:?} \nu2={:?}\nu3={:?}", u1, u2, u3);
 }
