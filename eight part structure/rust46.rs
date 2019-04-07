@@ -7,6 +7,7 @@ struct User {
 
 
 fn main() {
+    //User doit être en majuscule obligatoirement
     let rob = User {
         email:String::from("rob@email.com"),
         age:22
