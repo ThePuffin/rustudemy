@@ -13,6 +13,8 @@ impl Student {
 Student{
     name, rust, javascript, bootstrap}
      }
+
+
      fn compare(&self){
   if self.rust>self.javascript && self.rust>self.bootstrap{
       println!("Highest marks in rust");
@@ -26,8 +28,16 @@ Student{
      }
 }
 
+//we can create multipl implement block
+impl Student {
+     fn coucou(&self){
+         println!("coucou {}", self.name);
+     }
+}
+
 fn main() {
   let new_student = Student::build_student(String::from("Bob"), 5, 8, 1);
   new_student.compare();
+  new_student.coucou();
 
 }
