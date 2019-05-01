@@ -1,15 +1,28 @@
-// introduction to enum
-
-#[allow(dead_code)] 
-#[allow(non_camel_case_types)]
-
-
+// #[allow(dead_code)] 
+// #[allow(non_camel_case_types)]
 #[derive(Debug)]
 enum IpAddrKind {
     V4,
     V6,
 }
 
-fn main () {
+#[derive(Debug)]
+struct IpAddr {
+    kind:IpAddrKind,
+    address:String,
+}
 
+fn main() {
+    let home=IpAddr {
+        kind:IpAddrKind::V4,
+        address:String::from("127.0.0.1"),
+    };
+
+    let loopback=IpAddr {
+        kind:IpAddrKind::V6,
+        address:String::from("::1"),
+    };
+
+    println!("{:?}",home);
+    println!("{:?}",loopback);
 }
