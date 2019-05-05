@@ -1,14 +1,14 @@
 //match control flow operator
 #[allow(dead_code)]
 #[derive(Debug)]
-enum coin {
+enum Coin {
     Penny,
     Nickel,
     Dime,
     Quarter,
 }
 
-fn value_in_cents(c:Coin){
+fn value_in_cents(c:Coin)->u32{
     match c {
         //could return code or just a value
         Coin::Penny=>{
@@ -23,5 +23,5 @@ fn value_in_cents(c:Coin){
 
 
 fn main() {
- println!("{}, value_in_cents(Coin::Penny)");   
+ println!("{}", value_in_cents(Coin::Penny));   
 }
