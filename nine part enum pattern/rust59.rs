@@ -24,4 +24,5 @@ fn value_in_cents(c:Coin)->u32{
 
 fn main() {
  println!("{}", value_in_cents(Coin::Penny));   
+ println!("{}", value_in_cents(Coin::Dime));   
 }
