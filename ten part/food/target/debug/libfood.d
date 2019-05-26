@@ -1,0 +1,1 @@
+/datas/dev/rustudemy/ten\ part/food/target/debug/libfood.rlib: /datas/dev/rustudemy/ten\ part/food/src/fruit/mango.rs /datas/dev/rustudemy/ten\ part/food/src/fruit/mod.rs /datas/dev/rustudemy/ten\ part/food/src/lib.rs /datas/dev/rustudemy/ten\ part/food/src/vegetable/ladyfinger.rs /datas/dev/rustudemy/ten\ part/food/src/vegetable/mod.rs

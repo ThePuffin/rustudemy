@@ -1,0 +1,1 @@
+/datas/dev/rustudemy/ten\ part/Facebook/target/debug/libFacebook.rlib: /datas/dev/rustudemy/ten\ part/Facebook/src/lib.rs /datas/dev/rustudemy/ten\ part/Facebook/src/login.rs /datas/dev/rustudemy/ten\ part/Facebook/src/logout.rs /datas/dev/rustudemy/ten\ part/Facebook/src/post.rs
