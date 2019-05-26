@@ -1,0 +1,1 @@
+/datas/dev/rustudemy/ten\ part/communicator/target/debug/libcommunicator.rlib: /datas/dev/rustudemy/ten\ part/communicator/src/client.rs /datas/dev/rustudemy/ten\ part/communicator/src/lib.rs /datas/dev/rustudemy/ten\ part/communicator/src/network/mod.rs /datas/dev/rustudemy/ten\ part/communicator/src/network/server.rs
