@@ -22,6 +22,7 @@ fn main () {
 
 fn document () ->String {
 let doc="Yes";
+// let doc="No";
     println!("Do you have all documents");
     if doc=="Yes" {
         println!("{}\n", doc);
@@ -35,6 +36,7 @@ let doc="Yes";
 
 fn fees () ->String {
     let fees="No";
+    // let fees="Yes";
     println!("Please submit your fees" );
     if fees=="Ok" {
         println!("{}\n", fees );
